@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pragmatic</title>
+  </head>
+  <body>
+    <main id="mainStyle">
+      <div id="twoTops">
+        <div id="topDiv"></div>
+        <p id="topP">10 ᲘᲐᲜᲕᲠᲘᲓᲐᲜ - 12 ᲛᲐᲠᲢᲐᲛᲓᲔ</p>
+      </div>
+
+      <div id="circleX" class="ex2"></div>
+      <div id="twoSlots">
+        <div id="slots"></div>
+        <p id="pSlots">სლოტები</p>
+      </div>
+      <!-- 0 -->
+      <img src="images/prize-en.png" alt="" id="prizeImg" />
+      <div id="randContent">
+        <p id="firstP">
+          PRAGMATIC-ის რჩეულ სლოტებში დიდი ფულადი პრიზები და ქეშდროფები გელოდება
+        </p>
+        <p id="secondP">
+          52 კვირის განმავლობაში, მიიღე ფულადი პრიზები ყოველკვირეული საპრიზო
+          ფონდიდან
+        </p>
+      </div>
+      <!-- 1 -->
+      <img src="images/banner.jpg" alt="" id="bannerId" />
+      <div id="accordionOne">
+        <button class="accordion" id="acc1">
+          <!-- 2 -->
+          <img
+            src="images/tab-bg-active.png"
+            onclick="blocked(2)"
+            alt=""
+            id="accWeekOneHide"
+          />
+          <p id="PanelPs">1-4 კვირა</p>
+          <p id="pricePanelP">2 000 000₾</p>
+        </button>
+
+        <button class="accordion" id="acc2">
+          <!-- 3 -->
+          <img
+            src="images/tab-bg.png"
+            onclick="blocked(3)"
+            alt=""
+            id="accWeekFiveHide"
+          />
+
+          <p id="PanelPs">5-8 კვირა</p>
+          <!-- 4 -->
+          <img src="images/lock-sm.png" alt="" id="lock" />
+          <p id="pricePanelP">2 000 000₾</p>
+        </button>
+
+        <button class="accordion" id="acc3">
+          <!-- 5 -->
+          <img
+            src="images/tab-bg.png"
+            onclick="blocked(5)"
+            alt=""
+            id="accWeekFive1"
+          />
+          <p id="PanelPs">5-8 კვირა</p>
+          <!-- 6 -->
+          <img src="images/lock-sm.png" alt="" id="lock" />
+          <p id="pricePanelP">2 000 000₾</p>
+        </button>
+      </div>
+      <div id="afterBluesDiv">
+        <p id="afterBlues">
+          12 კვირის განმავლობაში, მიიღე ფულადი პრიზები ყოველკვირეული საპრიზო
+          ფონდიდან
+        </p>
+      </div>
+
+      <div id="dates">
+        <div id="firstDate" onclick="diffDate(1)">
+          <p>2.07-29.07</p>
+        </div>
+        <div id="secondDate" onclick="diffDate(2)">
+          <p>2.07-29.07</p>
+        </div>
+        <div id="thirdDate" onclick="diffDate(3)">
+          <p>2.07-29.07</p>
+        </div>
+        <div id="fourthDate" onclick="diffDate(4)">
+          <p>2.07-29.07</p>
+        </div>
+      </div>
+
+      <div id="bigBlock">
+        <div id="popX">
+          <img src="images/multipliers-img.png" alt="" />
+          <div id="XTexts">
+            <p id="daichire">ᲓᲐᲘᲭᲘᲠᲔ X-ᲔᲑᲘ</p>
+            <p id="daikave">
+              დაიკავე საპრიზო ადგილი ლიდერბორდში ან ჩამოაგდე ფულადი პრიზის
+              შემთხვევითი მულტიპლიკატორი
+            </p>
+          </div>
+        </div>
+        <div id="leftBlock">
+          <p id="moxvdi">ᲛᲝᲮᲕᲓᲘ ᲧᲝᲕᲔᲚᲙᲕᲘᲠᲔᲣᲚ ᲚᲘᲓᲔᲠᲑᲝᲠᲓᲨᲘ</p>
+          <p id="ertSpinze">
+            ერთ სპინზე დაფიქსირებული მოგების ყველაზე მაღალი კოეფიციენტი არის
+            შენი ქულა ლიდერბორდში
+          </p>
+
+          <div id="leftSection"></div>
+          <div id="brightLeft">
+            <div id="firstLeft">ყოველდღიური 248 000₾</div>
+            <div id="secondLeft">Top 1500</div>
+            <div id="adgili">ადგილი</div>
+            <div id="prizi">პრიზი</div>
+          </div>
+          <section id="types">
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">1</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text21">40 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">2</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text22">20 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">3</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text23">8 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">4-10</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text24">4 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">11-20</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text25">2 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">21-50</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text26">800₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">50-100</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text27">300₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">100-200</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text28">100₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">200-450</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text29">50₾</p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div id="rightBlock">
+          <p id="yoveldge">
+            ᲧᲝᲕᲔᲚᲓᲦᲔ ᲛᲘᲘᲦᲔ ᲨᲔᲛᲗᲮᲕᲔᲕᲘᲗᲘ ᲤᲣᲚᲐᲓᲘ ᲞᲠᲘᲖᲘ ᲜᲔᲑᲘᲡᲛᲘᲔᲠ ᲡᲞᲘᲜᲖᲔ
+          </p>
+          <p id="yoveldgiuri">ყოველდღიური, 36 000₾-ის ფულადი პრიზები</p>
+
+          <div id="rightSection">
+            <div
+              id="qMarkDiv"
+              onmouseover="questionMark()"
+              onmouseleave="qMRemove()"
+            >
+              <p id="qMarkP">?</p>
+            </div>
+          </div>
+          <div id="brightRight">
+            <div id="firstRight">ყოველდღიური 248 000₾</div>
+            <div id="secondRight">1500 პრიზი</div>
+
+            <div id="raodenobaRight">რაოდენობა</div>
+            <div id="priziRight">პრიზი</div>
+          </div>
+          <section id="typesRight">
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">1</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text31">4 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">2</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text32">2 000₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">5</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text33">400₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">12</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text34">200₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">110</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text35">80₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright">
+                <p id="text" class="chngTxt">370</p>
+              </div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text36">40₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">500</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text37">20₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">610</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text38">15₾</p>
+              </div>
+            </div>
+            <div id="birghtSides">
+              <div id="insideBright"><p id="text">870</p></div>
+              <div id="insideBrightRight">
+                <p id="text2" class="text39">5₾</p>
+              </div>
+            </div>
+          </section>
+          <div id="whiteDiv">
+            <p>
+              მოთამაშემ 10₾-იანი სპინით დააფიქსირა ყველაზე მაღალი მოგება და
+              ლიდერბორდში დაიკავა პირველი ადგილი, ის მიიღებს 10₾X10 000=100
+              000₾-ს
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="bottomTexts">
+        <p id="bTFrst">*პრიზები დაირიცხება ავტომატურად მოგებისთანავე.</p>
+        <p id="bTScnd">
+          *ლიდერბორდი და დარჩენილი ქეშ დროფ პრიზების ოდენობა განახლდება
+          ავტომატურად, მონაწილე თამაშების ფანჯარაში
+        </p>
+        <p id="bTThrd"></p>
+        <p id="bTFrth"></p>
+        <img id="plusImg" src="images/plus.png" alt="" />
+      </div>
+      <div id="sliderTxt">
+        <p id="daatriale">დაატრიალე რჩეული სლოტები:</p>
+        <p id="spinzeFsoni">სპინზე ფსონის მინ. რაოდენობა - 2₾</p>
+      </div>
+      <div id="imgSlider">
+        <img src="images/thumb/5-Lions-Megaways.jpg" alt="" />
+        <img src="images/thumb/AztecBonanza.jpg" alt="" />
+        <img src="images/thumb/aztecGems.jpg" alt="" />
+        <img src="images/thumb/Big-Bass-Bonanza-Megaways.jpg" alt="" />
+        <img src="images/thumb/BigBassBonanza.jpg" alt="" />
+        <img src="images/thumb/Bigger-Bass-Bonanza.jpg" alt="" />
+        <img src="images/thumb/Book-of-Fallen.jpg" alt="" />
+        <img src="images/thumb/bronco.jpg" alt="" />
+        <img src="images/thumb/Buffalo-King-Megaways.jpg" alt="" />
+        <img src="images/thumb/buffaloKing.jpg" alt="" />
+        <img src="images/thumb/CaishenGold.jpg" alt="" />
+        <img src="images/thumb/Cash-Bonanza.jpg" alt="" />
+        <img src="images/thumb/chilliHeat.jpg" alt="" />
+        <img src="images/thumb/Christmas-Carol-Megaways.jpg" alt="" />
+        <img src="images/thumb/CowboyGold.jpg" alt="" />
+        <img src="images/thumb/CurseOfwerewolfMegaways.jpg" alt="" />
+        <img src="images/thumb/DanceParty.jpg" alt="" />
+        <img src="images/thumb/DragoJewels.jpg" alt="" />
+        <img src="images/thumb/5-Lions-Megaways.jpg" alt="" />
+        <img src="images/thumb/FireStrike.jpg" alt="" />
+        <img src="images/thumb/GatesOfOlympus.jpg" alt="" />
+        <img src="images/thumb/GemsBonanza.jpg" alt="" />
+        <img src="images/thumb/greatRhinoDeluxe.jpg" alt="" />
+        <img src="images/thumb/greatRhinoMegaways.jpg" alt="" />
+        <img src="images/thumb/Hot-Fiesta.jpg" alt="" />
+        <img src="images/thumb/JohnHunterAndTheMayanGods.jpg" alt="" />
+        <img src="images/thumb/JohnHunterScarabQueen.jpg" alt="" />
+
+        <img src="images/thumb/johnHunterTUT.jpg" alt="" />
+        <img src="images/thumb/JokerJewels.jpg" alt="" />
+        <img src="images/thumb/JokerKing.jpg" alt="" />
+        <img src="images/thumb/JokersJewels.jpg" alt="" />
+        <img src="images/thumb/Juicy-Fruits.jpg" alt="" />
+        <img src="images/thumb/MadameDestiny.jpg" alt="" />
+        <img src="images/thumb/madameDestinyMegaways.jpg" alt="" />
+        <img src="images/thumb/master-joker.jpg" alt="" />
+        <img src="images/thumb/MustangGold.jpg" alt="" />
+        <img src="images/thumb/Mysterious.jpg" alt="" />
+        <img src="images/thumb/MysteriousEgypt.jpg" alt="" />
+        <img src="images/thumb/PirateGold.jpg" alt="" />
+        <img src="images/thumb/PirateGoldDeluxe.jpg" alt="" />
+        <img src="images/thumb/Power-of-Thor-Megaways.jpg" alt="" />
+        <img src="images/thumb/pyramidKing.jpg" alt="" />
+        <img src="images/thumb/releaseKraken.jpg" alt="" />
+        <img src="images/thumb/rhino.jpg" alt="" />
+        <img src="images/thumb/Rise-of-Giza-PowerNudge.jpg" alt="" />
+        <img src="images/thumb/Santa.jpg" alt="" />
+        <img src="images/thumb/SpartanKing.jpg" alt="" />
+        <img src="images/thumb/Star-Bounty.jpg" alt="" />
+        <img src="images/thumb/Starlight-Princess.jpg" alt="" />
+        <img src="images/thumb/starzMegaways.jpg" alt="" />
+        <img src="images/thumb/SuperJoker.jpg" alt="" />
+        <img src="images/thumb/SuperX.jpg" alt="" />
+        <img src="images/thumb/SweetBonanza.jpg" alt="" />
+        <img src="images/thumb/SweetBonanzaXmas.jpg" alt="" />
+
+        <img src="images/thumb/Temujin-Treasures.jpg" alt="" />
+        <img src="images/thumb/TheDogHouse.jpg" alt="" />
+        <img src="images/thumb/TheDogHouseMegaways.jpg" alt="" />
+        <img src="images/thumb/TheGreatChickenEscape.jpg" alt="" />
+        <img src="images/thumb/TheHandOfMidas.jpg" alt="" />
+        <img src="images/thumb/Treasure-Wild.jpg" alt="" />
+        <img src="images/thumb/ultraBurn.jpg" alt="" />
+        <img src="images/thumb/ultraHoldAndSpin.jpg" alt="" />
+        <img src="images/thumb/vampiresWolves.jpg" alt="" />
+        <img src="images/thumb/voodooMagic.jpg" alt="" />
+        <img src="images/thumb/Voodoo-Magic.jpg" alt="" />
+        <img src="images/thumb/werewolfMegaways.jpg" alt="" />
+        <img src="images/thumb/WildWalker.jpg" alt="" />
+        <img src="images/thumb/WildWestGold.jpg" alt="" />
+        <img src="images/thumb/WildWildRiches.jpg" alt="" />
+        <img src="images/thumb/WolfGold.jpg" alt="" />
+      </div>
+
+      <div id="rules">
+        <p id="rulesTopText">წესები და პირობები</p>
+
+        <button class="realAccordion">
+          როდის იწყება და რა ფორმატით გაიმართება აქცია
+        </button>
+        <div class="panel">
+          <p>როდის იწყება და რა ფორმატით გაიმართება აქცია</p>
+        </div>
+
+        <button class="realAccordion">როგორ მივიღო აქციაში მონაწილეობა?</button>
+        <div class="panel">
+          <p>როგორ მივიღო აქციაში მონაწილეობა?</p>
+        </div>
+
+        <button class="realAccordion">სხვადასვა</button>
+        <div class="panel">
+          <p>სხვადასვა</p>
+        </div>
+      </div>
+
+      <img src="images/border-bg.png" alt="" id="borderImg" />
+      <div id="footer">
+        <a href="" id="winaAqcia">< ᲬᲘᲜᲐ ᲐᲥᲪᲘᲐ</a>
+        <button id="fButton">Place a bet</button>
+        <a href="" id="shemdegiAqcia">ᲨᲔᲛᲓᲔᲒᲘ ᲐᲥᲪᲘᲐ ></a>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- X -->
+<!-- <div id="popX">
+  <img src="images/multipliers-img.png" alt="" />
+  <div id="XTexts">
+    <p id="daichire">ᲓᲐᲘᲭᲘᲠᲔ X-ᲔᲑᲘ</p>
+    <p id="daikave">
+      დაიკავე საპრიზო ადგილი ლიდერბორდში ან ჩამოაგდე ფულადი პრიზის შემთხვევითი
+      მულტიპლიკატორი
+    </p>
+  </div>
+</div> -->
