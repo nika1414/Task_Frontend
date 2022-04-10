@@ -20,7 +20,16 @@ function blocked(a) {
 document.getElementById("popX").style.display = "none";
 document.getElementById("qMarkDiv").style.display = "none";
 document.getElementById("plusImg").style.marginTop = "-525px";
+
+document.getElementById("yoveldge").style.marginTop = "-10px";
+document.getElementById("yoveldge").style.marginBottom = "10px";
+document.getElementById("yoveldgiuri").style.marginBottom = "45px";
+document.getElementById("rightBlock").style.marginTop = "35px";
+
 function diffDate(b) {
+  document.getElementById("yoveldge").style.marginTop = "20px";
+  document.getElementById("rightBlock").style.marginTop = "25px";
+  document.getElementById("yoveldgiuri").style.marginBottom = "25px";
   document.getElementById("firstDate").style.backgroundColor = "#1a293b";
   document.getElementById("secondDate").style.backgroundColor = "#1a293b";
   document.getElementById("thirdDate").style.backgroundColor = "#1a293b";
@@ -28,7 +37,7 @@ function diffDate(b) {
   document.getElementById("ertSpinze").innerHTML =
     "ერთ სპინზე დაფიქსირებული მოგების ყველაზე მაღალი კოეფიციენტი არის შენი ქულა ლიდერბორდში";
   document.getElementById("yoveldge").innerHTML =
-    "ᲧᲝᲕᲔᲚᲓᲦᲔ ᲛᲘᲘᲦᲔ ᲨᲔᲛᲗᲮᲕᲔᲕᲘᲗᲘ ᲤᲣᲚᲐᲓᲘ ᲞᲠᲘᲖᲘ ᲜᲔᲑᲘᲡᲛᲘᲔᲠ ᲡᲞᲘᲜᲖᲔ";
+    "ყოველდღე მიიღე შემთხვევითი ფულადი პრიზი ნებისმიერ სპინზე";
   document.getElementById("yoveldgiuri").innerHTML =
     "ყოველდღიური, 36 000₾-ის ფულადი პრიზები";
   document.getElementById("firstRight").innerHTML = "ყოველდღიური 248 000₾";
@@ -62,6 +71,7 @@ function diffDate(b) {
   document.querySelector(".text38").textContent = "15₾";
   document.querySelector(".text39").textContent = "5₾";
   document.getElementById("popX").style.display = "none";
+
   if (b == 1) {
     document.getElementById("firstDate").style.backgroundColor = "#2e9ea1";
   }
@@ -70,9 +80,12 @@ function diffDate(b) {
     document.getElementById("ertSpinze").innerHTML =
       "დაიკავე საპრიზო ადგილი: ერთ სპინზე დაფიქსირებული მოგების ყველაზე მაღალი კოეფიციენტი არის შენი ქულა ლიდერბორდში";
     document.getElementById("yoveldge").innerHTML =
-      "ᲩᲐᲛᲝᲐᲒᲓᲔ ᲛᲣᲚᲢᲘᲞᲚᲘᲙᲐᲢᲝᲠᲔᲑᲘ ᲐᲜ ᲛᲘᲘᲦᲔ ᲤᲠᲘᲡᲞᲘᲜᲔᲑᲘ";
+      "ჩამოაგდე მულტიპლიკატორები ან მიიღე ფრისპინები";
+    document.getElementById("yoveldge").style.marginTop = "-10px";
+    document.getElementById("yoveldge").style.marginBottom = "10px";
     document.getElementById("yoveldgiuri").innerHTML =
       "მიიღე ფულადი პრიზი: თამაშის დროს შემთხვევით ჩამოგდებული ფულადი მულტიპლიკატორი გამრავლებული ფსონის ოდენობაზ";
+    document.getElementById("yoveldgiuri").style.marginBottom = "55px";
     document.getElementById("firstRight").innerHTML = "ყოველდღიური 36 000₾";
     document.getElementById("secondRight").innerHTML = "500 პრიზი";
     document.getElementById("prizi").innerHTML = "მულტიპლიკატორი";
@@ -108,6 +121,7 @@ function diffDate(b) {
     document.querySelector(".text38").textContent = "4₾";
     document.querySelector(".text39").textContent = "1₾";
     document.getElementById("plusImg").style.marginTop = "-470px";
+    document.getElementById("rightBlock").style.marginTop = "55px";
   }
   if (b == 3) {
     document.getElementById("thirdDate").style.backgroundColor = "#2e9ea1";

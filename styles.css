@@ -290,6 +290,7 @@ img {
 }
 
 #leftSection {
+  position: inherit;
   background-color: #203248;
   top: 1047px;
   left: 550px;
@@ -439,9 +440,11 @@ img {
 #rightBlock {
   position: block;
   text-align: center;
-  width: 50%;
+  width: 500px;
   float: right;
   background-color: transparent;
+  margin-right: 280px;
+  margin-top: 27px;
 }
 
 #rightBlock > p {
@@ -460,8 +463,8 @@ img {
   background: #203248 0% 0% no-repeat padding-box;
   border-radius: 13px;
   opacity: 1;
-  margin-top: -1%;
-  margin-left: 5%;
+  margin-top: -4px;
+  margin-left: 25px;
 }
 
 #firstRight {
@@ -499,7 +502,7 @@ img {
   letter-spacing: 2px;
   background-color: transparent;
   margin-top: -400px;
-  margin-left: 40px;
+  margin-left: 25px;
   text-align: center;
   text-align-last: center;
 }
@@ -507,7 +510,7 @@ img {
 #raodenobaRight {
   color: #9a9a9a;
   background-color: transparent;
-  margin-left: -55%;
+  margin-left: -130px;
   margin-top: 25px;
 }
 
@@ -525,8 +528,8 @@ img {
   height: 275px;
   overflow: auto;
   position: relative;
-  margin-left: -21%;
-  margin-top: 2%;
+  margin-top: 10px;
+  margin-left: -10px;
 }
 
 #typesRight::-webkit-scrollbar {
@@ -542,7 +545,7 @@ img {
 }
 
 #yoveldge {
-  margin-top: 5.6%;
+  margin-top: 44px;
   font-size: 22px;
   width: 550px;
   margin-left: 10%;
@@ -824,7 +827,7 @@ img {
 
 #footer {
   margin: auto;
-  width: 50%;
+  width: 90%;
   text-align: center;
 }
 
@@ -876,10 +879,11 @@ img {
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
-  float: right;
-  margin-top: 17%;
-  margin-left: 5%;
+
+  margin-top: 424px;
+  margin-left: 60px;
   position: absolute;
+  z-index: 1;
 }
 
 #whiteDiv > p {
@@ -922,4 +926,19 @@ img {
   font-size: 14px;
   color: #ffffff;
   opacity: 0.8;
+}
+
+#arrowImgNext {
+  height: 14px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#arrowImgBefore {
+  transform: rotateY(180deg);
+  height: 14px;
+  width: auto;
+  margin-top: 5px;
+  margin-right: 10px;
 }
