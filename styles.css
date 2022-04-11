@@ -609,38 +609,7 @@ img {
   height: 160px;
   width: auto;
 }
-/* 
-#imgX {
-  position: sticky;
-  float: left;
-  background-color: transparent;
-}
 
-#XTextDiv > p {
-  float: left;
-  background-color: transparent;
-  margin-top: 30px;
-}
-#XTextDiv {
-  float: left;
-  background-color: transparent;
-}
-#popX {
-  position: absolute;
-  text-align: center;
-
-  float: left;
-
-  top: 942px;
-  left: 697px;
-  width: 564px;
-  height: 109px;
-
-  background: #203248 0% 0% no-repeat padding-box;
-  border-radius: 20px;
-  opacity: 1;
-  margin-top: -40%;
-} */
 #daatriale {
   /* Layout Properties */
   top: 1733px;
@@ -703,9 +672,6 @@ img {
 
 #imgSlider::-webkit-scrollbar {
   height: 5px;
-  /* background: #ffffff 0% 0% no-repeat padding-box;
-  border-radius: 100px;
-  opacity: 0.05; */
   top: 1913px;
   left: 658px;
   width: 729px;
@@ -741,7 +707,6 @@ img {
   margin-bottom: 4%;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .realAccordion {
   background-color: #eee;
   color: white;
@@ -764,13 +729,22 @@ img {
   margin: 1%;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .realAccordion:hover {
   background: rgb(32, 33, 46);
 }
 
-/* Style the accordion panel. Note: hidden by default */
+.realAccordion::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+  font-weight: bold;
+  font-size: 18px;
+  float: right;
+}
+.active.realAccordion::after {
+  content: "\f077";
+}
+
 .panel {
   padding: 0 18px;
   background-color: transparent;
