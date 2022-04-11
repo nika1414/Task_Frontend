@@ -2,6 +2,7 @@
   background-color: #141529;
   margin: 0;
   padding: 0;
+  font-family: Helvetica Neue One Caps, Bold;
 }
 
 img {
@@ -853,6 +854,13 @@ img {
   background-color: transparent;
   padding: 5px;
 }
+#qMarkP1 {
+  background-color: transparent;
+  padding: 5px;
+}
+#leftSection > div {
+  margin-left: -660px;
+}
 
 #whiteDiv {
   /* Layout Properties */
@@ -872,6 +880,43 @@ img {
 }
 
 #whiteDiv > p {
+  background-color: transparent;
+  color: black;
+  font-size: 13px;
+  padding: 10px;
+}
+
+#qMarkDiv1 {
+  /* Layout Properties */
+  top: 1198px;
+  left: 1375px;
+  width: 29px;
+  height: 29px;
+  /* UI Properties */
+  background: rgb(54, 71, 91);
+  border-radius: 0px 13px;
+  float: right;
+  color: white;
+}
+
+#whiteDiv1 {
+  /* Layout Properties */
+  top: 1238px;
+  left: 1182px;
+  width: 245px;
+  height: 109px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+
+  margin-top: 424px;
+  margin-left: 60px;
+  position: absolute;
+  z-index: 1;
+}
+
+#whiteDiv1 > p {
   background-color: transparent;
   color: black;
   font-size: 13px;
@@ -1128,6 +1173,21 @@ img {
   }
   #lastAccordion {
     margin-bottom: 40px;
+  }
+  #leftSection > div {
+    margin-left: -660px;
+  }
+  #whiteDiv {
+    margin: auto;
+    margin-top: -1070px;
+    margin-left: -970px;
+  }
+  #whiteDiv1 {
+    margin: auto;
+    margin-top: 45px;
+
+    position: absolute;
+    z-index: 1;
   }
 }
 #arrowAccordion {

@@ -19,6 +19,7 @@ function blocked(a) {
 // console.log(parseInt(divideP.textContent) / 4);
 document.getElementById("popX").style.display = "none";
 document.getElementById("qMarkDiv").style.display = "none";
+document.getElementById("qMarkDiv1").style.display = "none";
 document.getElementById("plusImg").style.marginTop = "-525px";
 
 document.getElementById("yoveldge").style.marginTop = "-10px";
@@ -50,6 +51,7 @@ function diffDate(b) {
   document.getElementById("spinzeFsoni").innerHTML =
     "სპინზე ფსონის მინ. რაოდენობა - 2₾";
   document.getElementById("qMarkDiv").style.display = "none";
+  document.getElementById("qMarkDiv1").style.display = "none";
   document.querySelector(".chngTxt").textContent = "370";
   document.querySelector(".text21").textContent = "40 000₾";
   document.querySelector(".text22").textContent = "20 000₾";
@@ -98,6 +100,7 @@ function diffDate(b) {
     document.getElementById("spinzeFsoni").innerHTML =
       "*სპინზე ფსონის მინ. რაოდენობა შეზღუდული არ არის.";
     document.getElementById("qMarkDiv").style.display = "block";
+    document.getElementById("qMarkDiv1").style.display = "block";
     document.getElementById("popX").style.display = "flex";
     document.querySelector(".chngTxt").textContent = "320";
 
@@ -154,10 +157,19 @@ for (i = 0; i < acc.length; i++) {
 }
 
 document.getElementById("whiteDiv").style.display = "none";
+document.getElementById("whiteDiv1").style.display = "none";
 function questionMark() {
   document.getElementById("whiteDiv").style.display = "block";
 }
 
 function qMRemove() {
   document.getElementById("whiteDiv").style.display = "none";
+}
+
+function questionMark1() {
+  document.getElementById("whiteDiv1").style.display = "block";
+}
+
+function qMRemove1() {
+  document.getElementById("whiteDiv1").style.display = "none";
 }
