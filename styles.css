@@ -137,7 +137,6 @@ img {
 }
 
 #accordionOne {
-  letter-spacing: 150px;
   margin-left: 20%;
   text-align: center;
 }
@@ -764,12 +763,6 @@ img {
   margin: 1%;
 }
 
-.realAccordion::after {
-  font-family: "Font Awesome 5 Free";
-  content: "\f078";
-  font-weight: bold;
-}
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .realAccordion:hover {
@@ -788,14 +781,6 @@ img {
 
 .panel > p {
   background-color: transparent;
-}
-
-.realAccordion::after {
-  font-family: "Font Awesome 5 Free";
-  content: "\f078";
-  font-weight: bold;
-  font-size: 15px;
-  float: right;
 }
 
 #borderImg {
@@ -941,4 +926,212 @@ img {
   width: auto;
   margin-top: 5px;
   margin-right: 10px;
+}
+
+@media all and (max-width: 1154px) {
+  body {
+    width: 100%;
+    margin-right: 1000px;
+  }
+
+  #topP {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    margin-top: -4%;
+  }
+  #firstP {
+    width: 560px;
+  }
+  #secondP {
+    width: 500px;
+  }
+
+  #bTScnd {
+    margin-left: -100px;
+  }
+
+  #accordionOne {
+    display: flex;
+  }
+  #acc1 {
+    float: left;
+    margin-right: 20px;
+  }
+  #acc3 {
+    float: right;
+    margin-left: 20px;
+  }
+  #moxvdi {
+    font-size: 16px;
+    width: 80%;
+    font-weight: bold;
+  }
+  #ertSpinze {
+    font-size: 14px;
+    width: 60%;
+  }
+  #leftBlock {
+    float: left;
+    margin-left: 15px;
+  }
+
+  #leftBlock > p {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #leftSection {
+    width: 415px;
+    height: 334px;
+  }
+  #types {
+    margin-top: 25px;
+    height: 240px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: -88px;
+  }
+  #insideBrightRight {
+    width: 200px;
+  }
+  #insideBright {
+    margin-top: 4px;
+    margin-left: 170px;
+    width: 100px;
+  }
+  #firstLeft {
+    font-size: 15px;
+    width: 217px;
+    height: 29px;
+    margin-top: 67px;
+    z-index: 1;
+    padding: 5px 0px 0px 0px;
+  }
+
+  #secondLeft {
+    font-size: 15px;
+    width: 109px;
+    height: 29px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+    margin-top: -34px;
+    margin-left: 207px;
+    padding: 5px 0px 0px 0px;
+  }
+
+  #adgili {
+    margin-left: -235px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    float: left;
+    font-size: 12px;
+  }
+  #prizi {
+    margin-top: 10px;
+    font-size: 12px;
+    float: right;
+    margin-left: 235px;
+  }
+  #rightBlock {
+    position: absolute;
+    margin-left: 460px;
+    width: 415px;
+  }
+
+  #rightBlock > p {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  #rightSection {
+    width: 415px;
+    height: 334px;
+    margin-top: -16px;
+  }
+  #typesRight {
+    margin-left: -120px;
+    margin-top: 1px;
+    height: 240px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #yoveldge {
+    font-size: 15px;
+    width: 400px;
+    font-weight: bold;
+  }
+
+  #raodenobaRight {
+    margin-left: -195px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  #priziRight {
+    float: right;
+    margin-left: 230px;
+    font-size: 12px;
+    margin-top: -25px;
+  }
+
+  #firstRight {
+    font-size: 15px;
+    width: 217px;
+    height: 29px;
+    margin-top: 67px;
+    z-index: 1;
+    padding: 5px 0px 0px 0px;
+  }
+
+  #secondRight {
+    font-size: 15px;
+    width: 109px;
+    height: 29px;
+    float: left;
+    margin: 0px 0px 10px 0px;
+    margin-top: -34px;
+    margin-left: 207px;
+    padding: 5px 0px 0px 0px;
+  }
+  #brightRight {
+    width: 400px;
+  }
+  #plusImg {
+    position: relative;
+    margin-left: -22%;
+    margin-bottom: 400px;
+    height: 80px;
+  }
+  #bottomTexts {
+    position: relative;
+    margin-top: -250px;
+    margin-bottom: 250px;
+    text-align: center;
+    margin-left: 18%;
+  }
+
+  #rules {
+    width: 940px;
+    margin: 0;
+    padding: 0;
+    display: contents;
+  }
+  #rules > button {
+    width: 840px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  #lastAccordion {
+    margin-bottom: 40px;
+  }
+}
+#arrowAccordion {
+  width: 8px;
+  transform: rotate(90deg);
+  float: right;
 }
