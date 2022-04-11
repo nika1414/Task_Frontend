@@ -1057,7 +1057,7 @@ img {
   }
   #rightBlock {
     position: absolute;
-    margin-left: 460px;
+    margin-left: 55%;
     width: 415px;
   }
 
@@ -1169,12 +1169,19 @@ img {
   transform: rotate(90deg);
   float: right;
 }
+@media all and (max-width: 1366px) {
+  #rightBlock {
+    position: absolute;
+    margin-left: 660px;
+  }
+}
 
-@media all and (min-width: 1205px) {
-  #leftBlock {
-    float: left;
+@media all and (max-width: 940px) {
+  #plusImg {
+    margin-left: -170px;
   }
   #rightBlock {
-    margin-left: 60%;
+    position: absolute;
+    margin-left: 460px;
   }
 }
